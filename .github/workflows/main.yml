@@ -28,8 +28,7 @@ jobs:
 
     - name: copy files
       run: |
-        cp -p covid19-scraping/*.json
-        rm -rf covid19-scraping
+        cp covid19-scraping/*.json
     - run: git diff
 
     - name: Commit files
